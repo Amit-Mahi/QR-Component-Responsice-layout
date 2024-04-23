@@ -1,0 +1,19 @@
+root {
+    --white-color: hsl(0, 0%, 100%);
+    --lightGray-color: hsl(212, 45%, 89%);
+    --grayishBlue-color: hsl(220,15%,55%);
+    --darkBlue-color: hsl(218,44%,22%);
+
+    --primary-fontsize: 15px;
+
+    --primary-font: "Outfit", sans-serif;
+
+    --weight-400: 400;
+    --weight-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+}
